@@ -24,7 +24,7 @@ Lenguajes de programacion, libraries, preprocesador:</br>
 
 #Deployment</br>
 
-🚀 -- ![white_Github](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/ceb43efd-5faf-49e6-855f-8787d30ebe80) -- [Vercel](https://nu-skim.vercel.app/)</br>
+🚀 --![white_Vercel](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/f1c48daf-a86e-4c11-b949-f5fc3867ed64) -- [Vercel](https://nu-skim.vercel.app/)</br>
 
 
 ![raccon_Logo1](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/25cd100f-7a4d-4596-b64e-f08fb8d0b860)</br>
