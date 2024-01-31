@@ -15,7 +15,7 @@ Esta idea de app ficticia es crear, administrar tareas & projectos con el fin de
  
 Lenguajes de programacion, libraries, preprocesador:</br>
 ![html](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/3677b1e6-1df7-435e-84dd-834a76910664) HTML5(Lenguaje de marcado)</br>
-![css](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/c9c844cf-f237-43f0-b7cf-d7a7265dad59) CSS3(Estilos)</br>
+![css](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/c9c844cf-f237-43f0-b7cf-d7a7265dad59) CSS3(Lenguaje de stilos)</br>
 ![Sass](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/eed5233d-96ec-4f06-8e83-995b3034d714) SASS(Preprocesador)</br>
 ![js](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/5139797a-9eaf-41d0-85a0-42c82c4c6feb) JS(Lenguaje de programacion)</br>
 ![Bootstrap](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/0c933e67-111b-4828-802d-a258f91fd405) Bootstrap(Library)
