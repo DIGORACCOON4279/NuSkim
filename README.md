@@ -5,10 +5,10 @@
 Esta idea de app ficticia es crear, administrar tareas & projectos con el fin de aprenedr como se realizan el draw&drop creacion de cuenta y perfil, dashboard de tareas y proyectos</br>
 
 🛠 Herramientas & 🖥 tecnologias a utilizar:</br>
-Figma</br>
-Photopea</br>
-VSC</br>
-Animaciones CSS3(animations, transitions)</br>
+![figma](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/cdd5589e-2f95-4252-80ba-a1ec02f16cfc) Figma</br>
+![photopea](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/46bf103d-6f65-4b34-b1b0-9811d13ff2ab) Photopea</br>
+![vsc](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/946bf1b9-1579-4107-9d2a-f7decf2588e8) VSC</br>
+![animations](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/3ba0c088-299b-4da5-b237-8e714d0cd9be) Animaciones CSS3(@keyframes & transitions)</br>
 ![white_Vercel](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/01a4ba50-ccf7-4ddb-8c65-11f65c9e2931) Vercel(Deployment)</br>
 
 
