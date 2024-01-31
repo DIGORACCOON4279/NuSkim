@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.mainContainer{
+    width:100%;
+    height:auto;
+}
+.mainContainer .title{
+    color:#6e6e6e;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 50px auto;
+}
+.mainContainer .containerSections{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 30px;
+    padding:0px 50px;
+}
+.mainContainer .containerSections .section{
+    width:25%;
+    flex-grow: 1;
+    padding:1rem;
+    background-color: #fcfcfc;
+    /* margin:1rem; */
+    border-radius:5px;
+    box-shadow: 0 0 5px #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    font-family:'Courier New', Courier, monospace;
+    overflow: hidden;
+    /* position:relative; */
+}
+.mainContainer .containerSections .section:nth-child(1){
+    border-top: 3px solid rgb(241, 151, 16);
+}
+.mainContainer .containerSections .section:nth-child(2){
+    border-top: 3px solid rgb(106, 241, 16);
+}
+.mainContainer .containerSections .section:nth-child(3){
+    border-top: 3px solid rgb(16, 207, 241);
+}
+.mainContainer .containerSections .section:nth-child(4){
+    border-top: 3px solid rgb(222, 16, 241);
+}
+.mainContainer .containerSections .section h4{
+    color:#727272;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+.mainContainer .containerSections .section .paragraph{
+    width:auto;
+    background-color: #f5f5f5;
+    padding:10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 5px;
+}
+.mainContainer .containerSections .section p{
+    color:#727272;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.mainContainer .containerSections .section .dragging{
+    opacity:0.3;
+}
+
+.mainContainer .containerSections .section .newCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+    /* position: absolute;
+    bottom:0px;
+    left:0; */
+}
+.mainContainer .containerSections .section .newCard .addNewCard{
+    width:25px ;
+    height: 25px;
+    padding:1px;
+    border-radius: 50%;
+    border:1px solid #dddddd;
+    background-color: #fcfcfc;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.mainContainer .containerSections .section .newCard .addNewCard:hover{
+    background-color: #e7e7e7;
+}
+.mainContainer .containerSections .section .newCard .btnName{
+    flex-grow: 1;
+    color:#912ddd;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 5px 10px;
+    background-color: #912ddd1c;
+    border-radius: 4px;
+}
+.mainContainer .containerSections .section .newCard .addNewCard .imgAdd{
+    width: 100%;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border-radius: 25%;
+}
+.mainContainer .cardTask{
+    width:50%;
+    height: auto;
+    flex-grow: 1;
+    padding:50px;
+    margin: 100px auto;
+    border-radius:5px;
+    box-shadow: 0 0 5px #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+.mainContainer .cardTask .close{
+    align-self: self-end;
+    position: absolute;
+    top:5px;
+    right:5px;
+    cursor: pointer;
+}
+.mainContainer .cardTask .areaTask{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.mainContainer .cardTask .areaTask .area,
+.mainContainer .cardTask .areaTask .task,
+.mainContainer .cardTask .name{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.mainContainer .cardTask .areaTask .area #area,
+.mainContainer .cardTask .areaTask .task #task{
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    padding: 5px;
+}
+.mainContainer .cardTask .areaTask .area,
+.mainContainer .cardTask .areaTask .task,
+.mainContainer .cardTask .name,
+.mainContainer .cardTask .qualification .priority,
+.mainContainer .cardTask .qualification .difficulty,
+.mainContainer .cardTask .areaDescription,
+.mainContainer .cardTask .calender{
+    color:#727272;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.mainContainer .cardTask .qualification{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mainContainer .cardTask .qualification .priority,
+.mainContainer .cardTask .qualification .difficulty{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+.mainContainer .cardTask .qualification .priority .level,
+.mainContainer .cardTask .qualification .difficulty .level{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:10px;
+}
+.mainContainer .cardTask .qualification .priority .level label,
+.mainContainer .cardTask .qualification .difficulty .level label{
+    color:#969696;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:30px;
+}
+.mainContainer .cardTask .qualification .priority .level label .color,
+.mainContainer .cardTask .qualification .difficulty .level label .color{
+    width:20px;
+    height: 10px;
+}
+.mainContainer .cardTask .qualification .priority .level label .low{
+    background-color: #912ddd;
+}
+.mainContainer .cardTask .qualification .priority .level label .medium{
+    background-color: #2ddd2d;
+}
+.mainContainer .cardTask .qualification .priority .level label .high{
+    background-color: #2dc9dd;
+}
+
+.mainContainer .cardTask .qualification .difficulty .level label .easy{
+    background-color: #ddd12d;
+}
+.mainContainer .cardTask .qualification .difficulty .level label .normal{
+    background-color: #dd7c2d;
+}
+.mainContainer .cardTask .qualification .difficulty .level label .difficult{
+    background-color: #dd2d53;
+}
+
+.mainContainer .cardTask .areaDescription{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.mainContainer .cardTask .areaDescription #description{
+    max-width: 100%;
+    min-height: 150px;
+    padding: 10px;
+    color:#969696;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    display: flex;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+}
+.mainContainer .cardTask .name{
+    width:100%;
+}
+.mainContainer .cardTask .name #name{
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    padding: 5px;
+    flex-grow: 1;
+}
+.mainContainer .cardTask .calender{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.mainContainer .cardTask .calender .dates{
+    color:#969696;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+}
+.mainContainer .cardTask .calender .dates label{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:10px ;
+}
+.mainContainer .cardTask .calender .dates label #startDate,
+.mainContainer .cardTask .calender .dates label #deadline{
+    width:100%;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    padding: 5px;
+    color:#727272;
+    font-size: 0.7rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+/* .mainContainer .cardTask .calender .dates label .startDate[type="date"],
+.mainContainer .cardTask .calender .dates label .deadline[type="date"]{
+    color:#969696;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+} */
+.mainContainer .cardTask .required{
+    color:#727272;
+    font-size: 0.7rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.mainContainer .cardTask .btnSaved{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:15px;
+    /* align-items: flex-start; */
+}
+.mainContainer .cardTask .btnSaved .save,
+.mainContainer .cardTask .btnSaved .reset{
+    width: 25%;
+    text-align: center;
+    padding: 7px ;
+    border: 1px solid #912ddd;
+    background-color: #912ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    color:#ffffff;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.mainContainer .cardTask .btnSaved .save:hover,
+.mainContainer .cardTask .btnSaved .reset:hover{
+    color: #912ddd;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: 0 0 3px 1px #912ddd;
+}

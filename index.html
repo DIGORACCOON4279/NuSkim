@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag & drop</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts poppins 300, 400, 500, 600, 700 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main class="mainContainer">
+        <h3 class="title">To-do-list</h3>
+        <div class="containerSections">
+            <section class="section">
+                <h4>To-do</h4>
+                <div class="paragraph" draggable="true" id="paragraph-1">
+                    <p>Area</p>
+                    <p>Task</p>
+                    <p>Description</p>
+                    <div class="calender">
+                        <p>Start date</p>
+                        <p>Deadline</p>
+                    </div>
+                    <p>Name in charge of task:</p>
+                    <div class="priority">
+                        <p>Priority level:</p>
+                        <div class="level">
+                            <p>Low</p>
+                        </div>
+                    </div>
+                    <div class="difficulty">
+                        <p>Difficulty:</p>
+                        <div class="level">
+                            <p>Medium</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="paragraph" draggable="true" id="paragraph-2">
+                    <p>2. Task</p>
+                </div>
+                <div class="paragraph" draggable="true" id="paragraph-3">
+                    <p>3. Task</p>
+                </div>
+                <div class="paragraph" draggable="true" id="paragraph-4">
+                    <p>4. Task</p>
+                </div>
+                <div class="newCard">
+                    <button type="button" class="addNewCard"><img src="./img/addCard.svg" alt="" class="imgAdd"> </button>
+                    <p class="btnName">Add another card</p>
+                </div>
+            </section>
+            <section class="section">
+                <h4>In-progress</h4>
+                <div class="paragraph" draggable="true" id="paragraph-5">
+                    <p>5. Task</p>
+                </div>
+                <div class="paragraph" draggable="true" id="paragraph-6">
+                    <p>6. Task</p>
+                </div>
+                <div class="paragraph" draggable="true" id="paragraph-7">
+                    <p>7. Task</p>
+                </div>
+                <div class="paragraph" draggable="true" id="paragraph-8">
+                    <p>8. Task</p>
+                </div>
+                <div class="newCard">
+                    <button type="button" class="addNewCard"><img src="./img/addCard.svg" alt="" class="imgAdd"> </button>
+                    <p class="btnName">Add another card</p>
+                </div>
+            </section>
+            <section class="section">
+                <h4>Done</h4>
+                <div class="paragraph" draggable="true" id="paragraph-9">
+                    <p>9. Task</p>
+                </div>
+                <div class="paragraph" draggable="true" id="paragraph-10">
+                    <p>10. Task</p>
+                </div>
+                <div class="paragraph" draggable="true" id="paragraph-11">
+                    <p>11. Task</p>
+                </div>
+                <div class="paragraph" draggable="true" id="paragraph-12">
+                    <p>12. Task</p>
+                </div>
+                <div class="newCard">
+                    <button type="button" class="addNewCard"><img src="./img/addCard.svg" alt="" class="imgAdd"> </button>
+                    <p class="btnName">Add another card</p>
+                </div>
+            </section>
+            <section class="section">
+                <h4>Backlog</h4>
+                <div class="paragraph" draggable="true" id="paragraph-13">
+                    <p>13. Task</p>
+                </div>
+                <div class="paragraph" draggable="true" id="paragraph-14">
+                    <p>14. Task</p>
+                </div>
+                <div class="paragraph" draggable="true" id="paragraph-15">
+                    <p>15. Task</p>
+                </div>
+                <div class="paragraph" draggable="true" id="paragraph-16">
+                    <p>16. Task</p>
+                </div>
+                <div class="newCard">
+                    <button type="button" class="addNewCard"><img src="./img/addCard.svg" alt="" class="imgAdd"> </button>
+                    <p class="btnName">Add another card</p>
+                </div>
+            </section>
+        </div>
+
+        <form class="cardTask" draggable="true" id="paragraph-1">
+            <img class="close" src="./img/close.svg" alt="Close icon">
+            <div class="areaTask">
+                <label for="area" class="area">Area(*)
+                    <input id="area" type="text" required>
+                </label>
+                <label for="task" class="task">Task(*)
+                    <input id="task" type="text" required>
+                </label>
+            </div>
+
+            <div class="areaDescription">
+                <legend>Description</legend>
+                <textarea name="" id="description" >Describe your task here...</textarea>
+            </div>
+
+            <label for="name" class="name">Name in charge of task(*)
+                <input id="name" type="text">
+            </label>
+
+            <div class="calender">
+                <legend>Calender(*)</legend>
+                <div class="dates">
+                    <label for="startDate">Start date
+                        <input id="startDate" type="date" required>
+                    </label>
+                    <label for="deadline">Deadline
+                        <input id="deadline" type="date" required>
+                    </label>
+                </div>
+            </div>
+
+
+
+            <div class="qualification">
+                <div class="priority">
+                    <legend>Priority level(*)</legend>
+                    <div class="level">
+                        <label for="low">
+                            <div class="color low"></div>
+                            <input id="low" type="checkbox" required>Low
+                        </label>
+                        <label for="medium">
+                            <div class="color medium"></div>
+                            <input id="medium" type="checkbox" required>Medium
+                        </label>
+                        <label for="high">
+                            <div class="color high"></div>
+                            <input id="high" type="checkbox" required>High
+                        </label>
+                    </div>
+                </div>
+
+                <div class="difficulty">
+                    <legend>Difficulty(*)</legend>
+                    <div class="level">
+                        <label for="easy">
+                            <div class="color easy"></div>
+                            <input id="easy" type="checkbox" required>Easy
+                        </label>
+                        <label for="normal">
+                            <div class="color normal"></div>
+                            <input id="normal" type="checkbox" required>Normal
+                        </label>
+                        <label for="difficult">
+                            <div class="color difficult"></div>
+                            <input id="difficult" type="checkbox" required>Difficult
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <p class="required">Required fields(*)</p>
+            <div class="btnSaved">
+                <button class="save" type="button" value="submit">Save</button>
+                <button class="reset" type="reset" value="reset">Reset</button>
+            </div>
+
+        </form>
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
