@@ -3,7 +3,7 @@
 
 # Inicio</br>
 
-Esta idea de app ficticia es crear, administrar tareas & projectos con el fin de aprenedr como se realizan el draw&drop creacion de cuenta y perfil, dashboard de tareas y proyectos</br>
+Esta idea de app ficticia es crear, administrar tareas & projectos con el fin de aprender como se realizan el draw&drop creacion de cuenta y perfil, dashboard de tareas y proyectos</br>
 
 👉 🛠 Herramientas & 🖥 tecnologias a utilizar:</br>
 
