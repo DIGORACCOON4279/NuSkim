@@ -1,7 +1,7 @@
-#NuSkim</br>
+# NuSkim</br>
 ![image](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/44c4d118-010f-482e-97bb-6bf68605d131)</br>
 
-#Inicio</br>
+# Inicio</br>
 
 Esta idea de app ficticia es crear, administrar tareas & projectos con el fin de aprenedr como se realizan el draw&drop creacion de cuenta y perfil, dashboard de tareas y proyectos</br>
 
@@ -25,8 +25,7 @@ Esta idea de app ficticia es crear, administrar tareas & projectos con el fin de
 
 XXXXXXXXXXXX
 
-
-#Deployment</br>
+# Deployment</br>
 
 🚀 --![white_Vercel](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/f1c48daf-a86e-4c11-b949-f5fc3867ed64) -- [Vercel](https://nu-skim.vercel.app/)</br>
 
