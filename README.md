@@ -21,11 +21,13 @@ Esta idea de app ficticia es crear, administrar tareas & projectos con el fin de
 ![js](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/5139797a-9eaf-41d0-85a0-42c82c4c6feb) JS(Lenguaje de programacion)</br>
 ![Bootstrap](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/0c933e67-111b-4828-802d-a258f91fd405) Bootstrap(Library)
 
-#Desarrollo</br>
+# Desarrollo</br>
 
 XXXXXXXXXXXX
 
 # Deployment</br>
+
+El deploymetn se realizo en Vercel</br>
 
 🚀 --![white_Vercel](https://github.com/DIGORACCOON4279/NuSkim/assets/88150970/f1c48daf-a86e-4c11-b949-f5fc3867ed64) -- [Vercel](https://nu-skim.vercel.app/)</br>
 
